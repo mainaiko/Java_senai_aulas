@@ -1,5 +1,5 @@
 public class AlgoritmoTresAl {
-    void main(){
+    public class teste1{
         int chave = Integer.parseInt(IO.readln("Digite o numero da chave: "));
 
         if (chave == 7){
@@ -9,7 +9,7 @@ public class AlgoritmoTresAl {
         }
     }
 
-    void main(){
+    public class teste2{
         String classe = IO.readln("Escolha: guerreiro, mago, ladino ou clerigo: ");
 
         if (classe.equals("guerreiro")){
@@ -23,7 +23,7 @@ public class AlgoritmoTresAl {
         }
     }
 
-    void main(){
+    public class teste3{
         int nivel = Integer.parseInt(IO.readln("Nível: "));
         boolean temChave = IO.readln("Tem a chave? (sim/nao):").equals("sim");
         if (nivel >= 5 && temChave) {
@@ -33,7 +33,7 @@ public class AlgoritmoTresAl {
         }
     }
 
-    void main(){
+    public class teste4{
         String simbolo = IO.readln("Pise em qual símbolo? ");
         String resultado = switch (simbolo) {
         case "sol" -> "O selo aquece sob seus pés.";
