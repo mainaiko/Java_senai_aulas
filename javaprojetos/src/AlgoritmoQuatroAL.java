@@ -13,9 +13,14 @@ public class AlgoritmoQuatroAL {
             case 3:
                 nomeDia = "quarta-feira";
                 break;
-            default:
-                nomeDia = "dia invalido";
+            case 4:
+                nomeDia = "quinta-feira";
+                break;
+            case 5:
+                nomeDia = "sexta-feira";
+                break;
         }
+        
         IO.println(nomeDia);
     }
 
