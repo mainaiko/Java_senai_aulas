@@ -1,9 +1,9 @@
 public class AlgoritmoQuatroAL {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int diaDaSemana = 3;
         String nomeDia;
 
-        switch (diaDaSemana){
+        switch (diaDaSemana) {
             case 1:
                 nomeDia = "segunda feira";
                 break;
@@ -19,17 +19,20 @@ public class AlgoritmoQuatroAL {
             case 5:
                 nomeDia = "sexta-feira";
                 break;
+            default:
+                nomeDia = "dia invalido";
+                break;
         }
-        
+
         IO.println(nomeDia);
     }
 
-    //moderno
+    // moderno
 
-    public static void moderno(){
+    public static void moderno() {
         int diaDaSemana = 3;
 
-        switch (diaDaSemana){
+        switch (diaDaSemana) {
             case 1 -> IO.println("segunda-feira");
             case 2 -> IO.println("terça-feira");
             case 3 -> IO.println("quarta-feira");
