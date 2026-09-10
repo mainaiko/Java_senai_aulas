@@ -17,7 +17,7 @@ public class AlgoritmoVinteDoisAL {
 
             if(!usuario.equals(usuario1) || senha != senha1){
             IO.println("errado tente novamente");
-            teste_inicio++;
+            teste_inicio++; 
             }else{
                 IO.println("sucesso");
                 break;
@@ -35,7 +35,7 @@ public class AlgoritmoVinteDoisAL {
 
         if(valor_emprestimo_usuario <= valor_maximo_emprestimo){
             int quantidade_parcelas = Integer.parseInt(IO.readln("Digite a quantidade de parcelas: "));
-            IO.println("Maximo de 12 parcelas");
+            IO.println("Maximo de 10 parcelas");
             if(quantidade_parcelas != 0 && quantidade_parcelas <= 10){
                 double valor_total_juros = (valor_emprestimo_usuario / quantidade_parcelas) * (0.01 * quantidade_parcelas);
                 IO.println("O valor total das parcelas ficou em " + quantidade_parcelas + " " + valor_total_juros);

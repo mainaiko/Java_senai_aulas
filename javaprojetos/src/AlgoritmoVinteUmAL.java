@@ -14,3 +14,5 @@ public class AlgoritmoVinteUmAL {
 
 
 // para cada numero somar ao total 
+
+
