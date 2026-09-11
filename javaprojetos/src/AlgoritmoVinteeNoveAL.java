@@ -27,7 +27,6 @@ public class AlgoritmoVinteeNoveAL {
         media = soma / vetor.size();
         IO.println("A media aritmetica dos valores: " + media);
     }
-
 }
 // quantas vezes deseja adicionar vendas
 // para o numero total de vendas reistrar x vezes na lista vetor
