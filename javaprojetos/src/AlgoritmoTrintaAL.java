@@ -25,7 +25,6 @@ public class AlgoritmoTrintaAL {
         }
         
         IO.println("O valor total fatorado: " + total);
-
     }
 }
 
