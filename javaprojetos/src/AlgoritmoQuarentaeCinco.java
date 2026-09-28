@@ -12,6 +12,7 @@ public class AlgoritmoQuarentaeCinco {
 
         List<String> tarefas = List.of("estudar teste de mesa", "algoritmos", "java");
         for(String tarefa:tarefas){
+            IO.println(tarefa);
         }
     }
 }
